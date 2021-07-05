@@ -23,6 +23,7 @@ body {
   font-size: 16px;
   opacity: 0.8;
   margin-bottom: 50px;
+  line-height: 35px;
 }
 .div-half img {
   width: 100%;
@@ -39,4 +40,16 @@ body {
   padding: 15px 40px;
   border-radius: 35px;
   box-shadow: 0 0 10px rgba(255, 68, 0, 0.89);
+}
+
+.about-me {
+  display: flex;
+  background-image: url(images/shapes/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+.about-me .div-half img {
+  height: 99%;
+  width: 90%;
 }
