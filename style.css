@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.orange-color {
+  color: rgb(252, 100, 45);
+}
+.top-body {
+  display: flex;
+}
+.div-half {
+  width: 40%;
+  margin: 5%;
+}
+.div-half h1 {
+  font-size: 40px;
+  opacity: 0.8;
+  line-height: 55px;
+  font-weight: bold;
+}
+.div-half p {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+.div-half img {
+  width: 100%;
+}
+#dotted-background {
+  background-image: url(images/shapes/dotted.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+.button {
+  color: white;
+  background-image: linear-gradient(to left, rgb(241, 151, 66), orangered);
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(255, 68, 0, 0.89);
+}
