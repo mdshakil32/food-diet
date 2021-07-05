@@ -10,8 +10,8 @@ body {
   display: flex;
 }
 .div-half {
-  width: 40%;
-  margin: 5%;
+  width: 44%;
+  margin: 0 3%;
 }
 .div-half h1 {
   font-size: 40px;
@@ -52,4 +52,27 @@ body {
 .about-me .div-half img {
   height: 99%;
   width: 90%;
+}
+
+.my-recipie {
+  padding: 50px;
+}
+.flexible-container {
+  display: flex;
+}
+.recipie-head {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.recipie-item {
+  width: 30%;
+  margin: 0 1.7%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
+  border-radius: 30px;
+  padding: 20px;
+}
+.recipie-item img {
+  width: 100%;
 }
