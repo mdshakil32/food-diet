@@ -117,7 +117,7 @@ p {
   display: flex;
   margin: 5%;
   padding: 50px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.178);
+  box-shadow: 0 0 40px rgba(255, 68, 0, 0.281);
   border-radius: 10px;
 }
 .number-item {
@@ -137,7 +137,7 @@ p {
 .single-customer {
   display: flex;
   height: 300px;
-  box-shadow: 0 0 20px rgba(0, 110, 255, 0.5);
+  box-shadow: 0 0 40px rgba(0, 110, 255, 0.363);
 
   margin-bottom: 50px;
   background-color: white;
